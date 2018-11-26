@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
+/*
   background: rgba(45,176,224,1);
   background: -moz-linear-gradient(45deg, rgba(45,176,224,1) 0%, rgba(96,40,168,1) 100%);
   background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(45,176,224,1)), color-stop(100%, rgba(96,40,168,1)));
@@ -17,7 +17,9 @@ body {
   background: -o-linear-gradient(45deg, rgba(45,176,224,1) 0%, rgba(96,40,168,1) 100%);
   background: -ms-linear-gradient(45deg, rgba(45,176,224,1) 0%, rgba(96,40,168,1) 100%);
   background: linear-gradient(45deg, rgba(45,176,224,1) 0%, rgba(96,40,168,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db0e0', endColorstr='#6028a8', GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db0e0', endColorstr='#6028a8', GradientType=1 ); */
+  background: url("img/sky.jpg") center;
+  background-size:cover;
 }
 
 .main {
@@ -26,13 +28,14 @@ body {
   box-shadow: 0px 2px 80px -20px rgba(0,0,0,0.5);
   width: 60%;
   margin: 0 auto;
+
 }
 
 .info {
   height: 55vh;
-  background: url("img/pol.jpg") center center no-repeat;
+  background: url("img/font.jpg") center center no-repeat;
   background-blend-mode: multiply;
-  background-color: #484747;
+  background-color: #ffffff;
   border: 2px solid #1f1f1f;
   border-right: 2px solid #131e29;
   background-size: cover;
@@ -41,6 +44,7 @@ body {
   justify-content: center;
   text-align: center;
   color: #000;
+
 }
 
 .form {
